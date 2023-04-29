@@ -45,6 +45,7 @@ stages:
     displayName: deployawebapp
     jobs:
       - deployment: deployontoazure
+        environment: azure 
         strategy:
           runOnce:
             deploy:
